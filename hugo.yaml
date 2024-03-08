@@ -1,0 +1,243 @@
+baseURL: "https://robertdalton.work"
+languageCode: "en-us"
+title: "Robert Dalton"
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+Paginate: 3
+enableRobotsTXT: true
+# disqusShortname: your-disqus-shortname
+# googleAnalytics: G-MEASUREMENT_ID
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+#Menus:
+#  main:
+#    - identifier: blog
+#      name: Blog
+#      title: Blog posts
+#      url: /blogs
+#      weight: 1
+#    - identifier: gallery
+#      name: Gallery
+#      title: Blog posts
+#      url: /gallery
+#      weight: 2
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Robert Dalton"
+  description: Robert Dalton
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/hero.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+  
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: " " # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Robert Dalton."
+    subtitle: "Manager of projects"
+    content: "A technically knowledgeable project motivator with strong communication skills, and a solid understanding of development and management."
+    image: /images/hero.svg
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: false
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/hero.png"
+    content: |-
+      As a project manager, I find true fulfillment in seeing every endeavor through to its completion. My diverse background and unyielding thirst for knowledge have driven me to push myself further, seeking the best approach constantly. I am managing projects for Capco Telecom in Texas, and I am more inspired than ever to bring my passion and expertise to every task.
+
+#  # certs
+#  certifications
+#    enable: true
+#    # title: "Custom Name"
+#    index: false
+#    items:
+
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: "Continuing Education"
+        school:
+          name: "Project Management Institute"
+          url: "https://www.pmi.org/"
+        date: "2024"
+
+      - title: "Associates in Computer Networking"
+        school:
+          name: "ITT Technical Institute"
+        date: "2004 - 2007"
+
+      - title: "High School" 
+        school:
+          name: "North Hopkins ISD"
+          url: "https://www.northhopkins.net/"
+        date: "2000 - 2004"
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: City of Plano OSP Fiber Network Phase 1 - 3 (2019 - 2023)
+        content: 100 mile OSP Fiber MAN serving 79 building facilities, 103 traffic intersections, 10 pumping stations, 4 radio towers and 10 water towers. The scope of work included developing a Program of Work to serve all City facilities with Fiber that is practical. Identify the best routes to serve these locations, while developing ring and redundant paths where possible.
+    
+      - title: City of Celina City Wide Fiber Study (2021 - 2022)
+        content: Develop a 10-year CIP project plan to identify critical infrastructure needs. Created a list of prospective projects for fiber optic solution needs for the City of Celina and Celina ISD. The projects included estimated design recommendations/specifications and options of probable cost to include each project's design, construction, and implementation.
+      
+      - title: City of Celina OSP Fiber Network Phase 1 (2023 - Ongoing)
+        content: Over 10 mile OSP Fiber MAN connecting 7 City facilities. The scope of work included developing a Program of Work, identify the best routes to serve these locations, while developing ring and redundant paths where possible.
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content:
+    email: admin@robertdalton.work
+    btnName: Send a Email
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/1701home
+      linkedin: https://www.linkedin.com/in/robertdaltondfw/
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Page not found"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
