@@ -153,7 +153,24 @@ params:
 #    index: false
 #    items:
 
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
 
+      - title: City of Celina OSP Fiber Network Phase 1 (2022 - Present)
+        content: Over 10 mile OSP Fiber MAN connecting 7 City facilities. The scope of work includes project management, developing a Program of Work, identify the best routes to serve these locations, while developing ring and redundant paths where possible.
+
+      - title: City of Plano Phase 4 IV Fiber Communications Expansion (2022 - Present)
+        content: A multi-firm endeavor to expand the existing City network by connecting 155 traffic controllers with 41 miles of OSP Fiber. The scope of work includes project management, developing a Scope of Work, performing a fiber feasibility study, and design.
+
+      - title: City of Celina City Wide Fiber Study (2021 - 2022)
+        content: Develop a 10-year CIP project plan to identify critical infrastructure needs. Created a list of prospective projects for fiber optic solution needs for the City of Celina and Celina ISD. The projects included estimated design recommendations/specifications with options of probable cost to have each project's design, construction, and implementation.
+ 
+      - title: City of Plano OSP Fiber Network Phase 1 - 3 (2019 - 2023)
+        content: 100 mile OSP Fiber MAN serving 79 building facilities, 103 traffic intersections, 10 pumping stations, 4 radio towers and 10 water towers. The scope of work included developing a Program of Work to serve all City facilities with Fiber that is practical. Identify the best routes to serve these locations, while developing ring and redundant paths where possible.
+       
   # Education
   education:
     enable: true
@@ -177,19 +194,6 @@ params:
           url: "https://www.northhopkins.net/"
         date: "2000 - 2004"
 
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: City of Plano OSP Fiber Network Phase 1 - 3 (2019 - 2023)
-        content: 100 mile OSP Fiber MAN serving 79 building facilities, 103 traffic intersections, 10 pumping stations, 4 radio towers and 10 water towers. The scope of work included developing a Program of Work to serve all City facilities with Fiber that is practical. Identify the best routes to serve these locations, while developing ring and redundant paths where possible.
-    
-      - title: City of Celina City Wide Fiber Study (2021 - 2022)
-        content: Develop a 10-year CIP project plan to identify critical infrastructure needs. Created a list of prospective projects for fiber optic solution needs for the City of Celina and Celina ISD. The projects included estimated design recommendations/specifications and options of probable cost to include each project's design, construction, and implementation.
-      
-      - title: City of Celina OSP Fiber Network Phase 1 (2023 - Ongoing)
-        content: Over 10 mile OSP Fiber MAN connecting 7 City facilities. The scope of work included developing a Program of Work, identify the best routes to serve these locations, while developing ring and redundant paths where possible.
   #Contact
   contact:
     enable: true
