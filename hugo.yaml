@@ -146,13 +146,6 @@ params:
     content: |-
       As a project manager, I find true fulfillment in seeing every endeavor through to its completion. My diverse background and unyielding thirst for knowledge have driven me to push myself further, seeking the best approach constantly. I am managing projects for Capco Telecom in Texas, and I am more inspired than ever to bring my passion and expertise to every task.
 
-#  # certs
-#  certifications
-#    enable: true
-#    # title: "Custom Name"
-#    index: false
-#    items:
-
   # projects
   projects:
     enable: true
@@ -169,8 +162,21 @@ params:
         content: Develop a 10-year CIP project plan to identify critical infrastructure needs. Created a list of prospective projects for fiber optic solution needs for the City of Celina and Celina ISD. The projects included estimated design recommendations/specifications with options of probable cost to have each project's design, construction, and implementation.
  
       - title: City of Plano OSP Fiber Network Phase 1 - 3 (2019 - 2023)
-        content: 100 mile OSP Fiber MAN serving 79 building facilities, 103 traffic intersections, 10 pumping stations, 4 radio towers and 10 water towers. The scope of work included developing a Program of Work to serve all City facilities with Fiber that is practical. Identify the best routes to serve these locations, while developing ring and redundant paths where possible.
-       
+        content: 100 mile OSP Fiber MAN serving 79 building facilities, 103 traffic intersections, 10 pumping stations, 4 radio towers and 10 water towers. The scope of work included developing a Program of Work to serve all City facilities with Fiber that is practical. Identify the best routes to serve these locations, while developing ring and redundant paths where possible.       
+
+  # Achievements
+  achievements:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Data Landscape of GenAI for Project Managers
+        content: Project Management Institute
+        url: https://www.credly.com/badges/2a7c8b86-800a-4f0b-8e5d-a13faadba224/public_url
+      - title: Generative AI Overview for Project Managers
+        content: Project Management Institute
+        url: https://www.credly.com/badges/4bbfccaf-3e15-4be8-a556-2d7768896d83/public_url
+
+
   # Education
   education:
     enable: true
