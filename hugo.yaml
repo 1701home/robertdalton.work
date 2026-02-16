@@ -12,7 +12,7 @@ outputs:
     - "HTML"
     - "RSS"
 
-Paginate: 3
+pagination.paperSize: 3
 enableRobotsTXT: true
 # disqusShortname: your-disqus-shortname
 # googleAnalytics: G-MEASUREMENT_ID
@@ -152,8 +152,8 @@ params:
     # title: "Custom Name"
     items:
 
-      - title: City of Celina OSP Fiber Network Phase 1 (2022 - Present)
-        content: Over 10 mile OSP Fiber MAN connecting 7 City facilities. The scope of work includes project management, developing a Program of Work, identify the best routes to serve these locations, while developing ring and redundant paths where possible.
+      - title: City of Celina OSP Fiber Network Phase 1 - 3 (2022 - 2026)
+        content: A 24 mile OSP Fiber MAN connecting 24 City facilities. The scope of work includes project management, developing a Program of Work, identify the best routes to serve these locations, while developing ring and redundant paths where possible.
 
       - title: City of Plano Phase 4 IV Fiber Communications Expansion (2022 - Present)
         content: A multi-firm endeavor to expand the existing City network by connecting 155 traffic controllers with 41 miles of OSP Fiber. The scope of work includes project management, developing a Scope of Work, performing a fiber feasibility study, and design.
