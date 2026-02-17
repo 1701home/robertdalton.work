@@ -2,7 +2,7 @@ baseURL: "https://robertdalton.work"
 languageCode: "en-us"
 title: "Robert Dalton"
 theme: hugo-profile
-
+ 
 outputs:
   home:
     - "HTML"
